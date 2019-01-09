@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+
+<body>
+
+    <div class="players-list">
+        <ul id="player-list-red">
+        </ul>
+        <span id="actual-score-red">0</span>
+        <ul id="player-list">
+
+        </ul>
+        <span id="actual-score-blue">0</span>
+        <ul id="player-list-blue">
+
+        </ul>
+
+    </div>
+    <div id="game-status"><span>rozgrywana jest 1 runda.</span></div>
+    <div id="question-timer"><span>8</span></div>
+
+    <div id="question"></div>
+    <ul id="answers"></ul>
+    <button id="buzzer">Buzz</button>
+    <button id="ready-button"> Gotowy</button>
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
