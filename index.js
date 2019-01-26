@@ -1,4 +1,5 @@
 // Connection Settings
+import questionsList from "./public/questionList"
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
@@ -133,7 +134,7 @@ function startGame() {
     gamesIsOn = true;
     totalRedScore = 0;
     totalBlueScore = 0;
-    stage = 2;
+    stage = 1;
     numberOfQuestion = 1;
 
     gameController();
@@ -196,6 +197,176 @@ var questionsList = [{
         answerD: "Skraplanie",
         correctAnswer: "B"
     },
+    {
+        question: "W jakim kraju leży Lwów?",
+        answerA: "Białoruś",
+        answerB: "Ukraina",
+        answerC: "Polska",
+        answerD: "Litwa",
+
+    }, {
+        question: "Komu podlegało Generalne Gubernatorstwo?",
+        answerA: "Austrii",
+        answerB: "ZSRR",
+        answerC: "Wielkiej Brytanii",
+        answerD: "III Rzeszy",
+    }, {
+        question: "Który legendarny ptak odradzał się ze swojego popiołu?",
+        answerA: "Kiwi",
+        answerB: "Feniks",
+        answerC: "Dodo",
+        answerD: "Rudzik",
+
+    }, {
+        question: "Z czym kojarzymy zwrot Sodoma i Gomora",
+        answerA: "Mitologia grecka",
+        answerB: "Mitologia egipska",
+        answerC: "Don Kichot",
+        answerD: "Biblia",
+
+    }, {
+        question: "Co mierzymy w niutonach [N]?",
+        answerA: "Siłę",
+        answerB: "Ciśnienie",
+        answerC: "Ładunek elektryczny",
+        answerD: "Pracę",
+
+    }, {
+        question: "Błędnik odpowiada za:",
+        answerA: "Równowagę ",
+        answerB: "Menstruację ",
+        answerC: "Mowę ",
+        answerD: "Wzrok",
+
+    }, {
+        question: "Kto jest autorem książki Solaris",
+        answerA: "Arthur Conan Doyle",
+        answerB: "Stanisław Lem",
+        answerC: "Adam Mickiewicz ",
+        answerD: "Mikołaj Rej",
+
+    }, {
+        question: "Gdzie znajduje się Morskie Oko",
+        answerA: "Na północy Polski",
+        answerB: "Na południu Polski",
+        answerC: "Na zachodzie Polski",
+        answerD: "Na wschodzie Polski",
+
+    }, {
+        question: "Co oznacza skrót ONZ?",
+        answerA: "Organizacja Nacji Zjednoczonych",
+        answerB: "Opcja Narodów Zjednoczonych",
+        answerC: "Organizacja Narodów Zjednoczonych",
+        answerD: "Organizacja Narodów Zniszczonych",
+
+    }, {
+        question: "Jakie nazwisko nosił główny bohater Lalki?",
+        answerA: "Wokulski",
+        answerB: "Włodarczyk",
+        answerC: "Wolski",
+        answerD: "Wołodyjowski",
+
+    }, {
+        question: "Co oznacza litera m we wzorze e=mc2",
+        answerA: "Grawitacja",
+        answerB: "Ciśnienie",
+        answerC: "Masa spoczynkowa",
+        answerD: "Siła",
+
+    }, {
+        question: "W którym roku odbyła się koronacja Bolesława Chrobrego?",
+        answerA: "1024",
+        answerB: "1020",
+        answerC: "1026",
+        answerD: "1025",
+
+    }, {
+        question: "W którym roku uchwalono konstytucję 3 Maja?",
+        answerA: "1791",
+        answerB: "1772",
+        answerC: "1775",
+        answerD: "1772",
+
+    }, {
+        question: 'Cest la vie',
+        answerA: "Myślę, więc jestem",
+        answerB: "Życie jest pięknę",
+        answerC: "Takie jest życie",
+        answerD: "Kości zostały rzucone",
+
+    },
+    {
+        question: "Kim jest Tomasz Sikora?",
+        answerA: "Biathlonista ",
+        answerB: "Kierowca F1",
+        answerC: "Piłkarz",
+        answerD: "Łyżwiarz",
+
+    },
+    {
+        question: "Jaki pseudonim otrzymał Wład Palownik",
+        answerA: "Atylla ",
+        answerB: "Drakula",
+        answerC: "Hanibal",
+        answerD: "Mustafa",
+
+    },
+    {
+        question: "Jak nazywa się najgłębszy rów oceaniczny ziemi?",
+        answerA: "Rów Romański",
+        answerB: "Rów Elżbietański",
+        answerC: "Rów Mariański",
+        answerD: "Rów Januszowy",
+
+    },
+    {
+        question: "Które z tych zdań pasują do Edypa?",
+        answerA: "Przekazywał ludzkie wyroki",
+        answerB: "Poślubił swoją matkę",
+        answerC: "Zdecydował się na zmianę płci",
+        answerD: "Poślubił swoją córkę ",
+
+    },
+    {
+        question: "Batuta to: ",
+        answerA: "Instrument smyczkowy",
+        answerB: "Pałeczka przekazywana przez dyrygenta",
+        answerC: "Mała gitara",
+        answerD: "Urządzenie do strojenia fortepianiu",
+
+    },
+    {
+        question: "Kto wymyślił układ okresowy?",
+        answerA: "Dmitrj Mendelejew",
+        answerB: "Leonid Breżniew",
+        answerC: "Michaił Gorbaczow",
+        answerD: "Włodzimierz Lenin",
+
+    },
+    {
+        question: "Kim był Ryszard Wagner?",
+        answerA: "Astronomem",
+        answerB: "Pisarzem",
+        answerC: "Fizykiem",
+        answerD: "Kompozytorem",
+
+    },
+    {
+        question: "Co oznacza w języku niemieckim słowo Hund? ",
+        answerA: "Rower",
+        answerB: "Kota",
+        answerC: "Pies",
+        answerD: "Taniec",
+
+    },
+    {
+        question: "Co oznacza, że piłkarz nurkuje?",
+        answerA: "Strzela",
+        answerB: "Fauluje",
+        answerC: "Nie obronił karnego",
+        answerD: "Symuluje",
+
+    }
 ]
 
 function sendQuestion() {

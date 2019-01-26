@@ -149,7 +149,6 @@ $(function () {
     socket.on('endOfGame', function () {
         $('#questions').fadeOut();
         $('#answers').fadeOut();
-        location.reload();
     })
 
 });

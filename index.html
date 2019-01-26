@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		body {
+		display:flex;
+		flex-direction: column;
+	}
+	input {
+		width: 30%;
+		border: 2px solid black;
+		margin: 10px;
+		padding: 15px;
+	}</style>
+</head>
+
+<body>
+	<input type="text" name="question" placeholder="Pytanie" id="question">
+	<input type="text" id="A" name="answerA" placeholder="Odp: A">
+	<input type="text" id="B" name="answerB" placeholder="Odp: B">
+	<input type="text" id="C" name="answerC" placeholder="Odp: C">
+	<input type="text" id="D" name="answerD" placeholder="Odp: D">
+	<input type="text" id="correctAnswer" name="correctAnwser" placeholder="Poprawna odpowiedz">
+	<input type="submit" name="send" placeholder="Dodaj pytanie" id="submitButton">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	 crossorigin="anonymous"></script>
+
+	<script>
+		let questionList = [];
+		$('#submitButton').click(function () {
+			questionList.push({
+				question: $('#question').val(),
+				answerA: $('#A').val(),
+				answerB: $('#B').val(),
+				answerC: $('#C').val(),
+				answerD: $('#D').val(),
+				correctAnswer: $('#correctAnswer').val(),
+			})
+
+			$('#question').val(''),
+				$('#A').val(''),
+				$('#B').val(''),
+				$('#C').val(''),
+				$('#D').val(''),
+				$('#correctAnswer').val('')
+
+		})
+	</script>
+
+
+</body>
+
+</html>
