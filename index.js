@@ -203,6 +203,7 @@ var questionsList = [{
         answerB: "Ukraina",
         answerC: "Polska",
         answerD: "Litwa",
+        correctAnswer: "B"
 
     }, {
         question: "Komu podlegało Generalne Gubernatorstwo?",
@@ -210,19 +211,21 @@ var questionsList = [{
         answerB: "ZSRR",
         answerC: "Wielkiej Brytanii",
         answerD: "III Rzeszy",
+        correctAnswer: "D"
     }, {
         question: "Który legendarny ptak odradzał się ze swojego popiołu?",
         answerA: "Kiwi",
         answerB: "Feniks",
         answerC: "Dodo",
         answerD: "Rudzik",
-
+        correctAnswer: "B"
     }, {
         question: "Z czym kojarzymy zwrot Sodoma i Gomora",
         answerA: "Mitologia grecka",
         answerB: "Mitologia egipska",
         answerC: "Don Kichot",
         answerD: "Biblia",
+        correctAnswer: "D"
 
     }, {
         question: "Co mierzymy w niutonach [N]?",
@@ -230,6 +233,7 @@ var questionsList = [{
         answerB: "Ciśnienie",
         answerC: "Ładunek elektryczny",
         answerD: "Pracę",
+        correctAnswer: "A"
 
     }, {
         question: "Błędnik odpowiada za:",
@@ -237,6 +241,7 @@ var questionsList = [{
         answerB: "Menstruację ",
         answerC: "Mowę ",
         answerD: "Wzrok",
+        correctAnswer: "A"
 
     }, {
         question: "Kto jest autorem książki Solaris",
@@ -244,48 +249,49 @@ var questionsList = [{
         answerB: "Stanisław Lem",
         answerC: "Adam Mickiewicz ",
         answerD: "Mikołaj Rej",
-
+        correctAnswer: "B"
     }, {
         question: "Gdzie znajduje się Morskie Oko",
         answerA: "Na północy Polski",
         answerB: "Na południu Polski",
         answerC: "Na zachodzie Polski",
         answerD: "Na wschodzie Polski",
-
+        correctAnswer: "B"
     }, {
         question: "Co oznacza skrót ONZ?",
         answerA: "Organizacja Nacji Zjednoczonych",
         answerB: "Opcja Narodów Zjednoczonych",
         answerC: "Organizacja Narodów Zjednoczonych",
         answerD: "Organizacja Narodów Zniszczonych",
-
+        correctAnswer: "C"
     }, {
         question: "Jakie nazwisko nosił główny bohater Lalki?",
         answerA: "Wokulski",
         answerB: "Włodarczyk",
         answerC: "Wolski",
         answerD: "Wołodyjowski",
-
+        correctAnswer: "A"
     }, {
         question: "Co oznacza litera m we wzorze e=mc2",
         answerA: "Grawitacja",
         answerB: "Ciśnienie",
         answerC: "Masa spoczynkowa",
         answerD: "Siła",
-
+        correctAnswer: "C"
     }, {
         question: "W którym roku odbyła się koronacja Bolesława Chrobrego?",
         answerA: "1024",
         answerB: "1020",
         answerC: "1026",
         answerD: "1025",
-
+        correctAnswer: "D"
     }, {
         question: "W którym roku uchwalono konstytucję 3 Maja?",
         answerA: "1791",
         answerB: "1772",
         answerC: "1775",
         answerD: "1772",
+        correctAnswer: "A"
 
     }, {
         question: 'Cest la vie',
@@ -293,7 +299,7 @@ var questionsList = [{
         answerB: "Życie jest pięknę",
         answerC: "Takie jest życie",
         answerD: "Kości zostały rzucone",
-
+        correctAnswer: "C"
     },
     {
         question: "Kim jest Tomasz Sikora?",
@@ -301,6 +307,7 @@ var questionsList = [{
         answerB: "Kierowca F1",
         answerC: "Piłkarz",
         answerD: "Łyżwiarz",
+        correctAnswer: "A"
 
     },
     {
@@ -309,7 +316,7 @@ var questionsList = [{
         answerB: "Drakula",
         answerC: "Hanibal",
         answerD: "Mustafa",
-
+        correctAnswer: "B"
     },
     {
         question: "Jak nazywa się najgłębszy rów oceaniczny ziemi?",
@@ -317,6 +324,7 @@ var questionsList = [{
         answerB: "Rów Elżbietański",
         answerC: "Rów Mariański",
         answerD: "Rów Januszowy",
+        correctAnswer: "C"
 
     },
     {
@@ -325,7 +333,7 @@ var questionsList = [{
         answerB: "Poślubił swoją matkę",
         answerC: "Zdecydował się na zmianę płci",
         answerD: "Poślubił swoją córkę ",
-
+        correctAnswer: "D"
     },
     {
         question: "Batuta to: ",
@@ -333,6 +341,7 @@ var questionsList = [{
         answerB: "Pałeczka przekazywana przez dyrygenta",
         answerC: "Mała gitara",
         answerD: "Urządzenie do strojenia fortepianiu",
+        correctAnswer: "B"
 
     },
     {
@@ -341,6 +350,7 @@ var questionsList = [{
         answerB: "Leonid Breżniew",
         answerC: "Michaił Gorbaczow",
         answerD: "Włodzimierz Lenin",
+        correctAnswer: "A"
 
     },
     {
@@ -349,6 +359,7 @@ var questionsList = [{
         answerB: "Pisarzem",
         answerC: "Fizykiem",
         answerD: "Kompozytorem",
+        correctAnswer: "D"
 
     },
     {
@@ -357,6 +368,7 @@ var questionsList = [{
         answerB: "Kota",
         answerC: "Pies",
         answerD: "Taniec",
+        correctAnswer: "C"
 
     },
     {
@@ -365,6 +377,7 @@ var questionsList = [{
         answerB: "Fauluje",
         answerC: "Nie obronił karnego",
         answerD: "Symuluje",
+        correctAnswer: "D"
 
     }
 ]
